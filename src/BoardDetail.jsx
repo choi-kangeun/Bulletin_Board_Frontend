@@ -84,16 +84,15 @@ class BoardDetail extends Component {
                   <Button block style={marginBottom}>
                     글 수정
                   </Button>
-                </NavLink>
-                <Button
-                  block style={marginBottom}
+                  <Button block style={marginBottom}
                   onClick={this.deleteBoard.bind(
                     null,
                     this.props.location.query._id
                   )}
                 >
-                  글 삭제
-                </Button>
+                    글 삭제
+                  </Button>
+                </NavLink>
               </div>
             </div>
           );

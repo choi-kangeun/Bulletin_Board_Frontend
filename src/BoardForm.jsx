@@ -85,13 +85,19 @@ class BoardForm extends Component {
       margin: "60px 300px"
     };
 
+    const thStyle ={
+      padding: "auto", width: 110, text:"center"
+    }
+
+  
+
     return (
       <div>
         <div style={divStyle}>
           <Table striped bordered hover>
             <thead>
               <tr>
-                <th>날짜</th>
+                <th style={thStyle}>날짜</th>
                 <th>글 제목</th>
               </tr>
             </thead>
