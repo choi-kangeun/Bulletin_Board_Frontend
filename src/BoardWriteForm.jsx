@@ -86,7 +86,7 @@ class BoardWriteForm extends Component {
 
   render() {
     const divStyle = {
-      margin: 50
+      margin: 300, marginTop: 60
     };
     const titleStyle = {
       marginBottom: 5

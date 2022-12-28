@@ -123,10 +123,10 @@ class LoginForm extends Component {
   };
   render() {
     const formStyle = {
-      margin: 50
+      margin: 300, marginTop: 60
     };
     const buttonStyle = {
-      marginTop: 10
+      marginTop: 10, width: 200, borderRadius: 20, border: "5px solid #8EC3B0"
     };
 
     return (
@@ -166,7 +166,6 @@ class LoginForm extends Component {
             회원가입
           </Button>
         </Form.Group>
-
         <Form.Group controlId="loginForm">
           <Form.Label>Email address</Form.Label>
           <Form.Control

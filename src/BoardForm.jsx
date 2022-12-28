@@ -82,7 +82,7 @@ class BoardForm extends Component {
 
   render() {
     const divStyle = {
-      margin: 50
+      margin: 150
     };
 
     return (

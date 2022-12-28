@@ -46,7 +46,7 @@ class Header extends Component {
     return (
       <div>
         <Navbar>
-          <Navbar.Brand href="/">Today I Learned</Navbar.Brand>
+          <Navbar.Brand href="/">Namu Intelligence</Navbar.Brand>
           <Navbar.Toggle />
           <Navbar.Collapse className="justify-content-end">
             {/* <NavLink to="/mypage">
@@ -69,7 +69,6 @@ class Header extends Component {
             </Button>
           </Navbar.Collapse>
         </Navbar>
-        <Image src="./img/main.png" fluid />
       </div>
     );
   }
