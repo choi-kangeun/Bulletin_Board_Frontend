@@ -92,7 +92,7 @@ class BoardWriteForm extends Component {
       marginBottom: 5
     };
     const buttonStyle = {
-      marginTop: 5
+      margin: "5px auto", width: 200, borderRadius: 20, border: "5px solid #8EC3B0"
     };
 
     return (

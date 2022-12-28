@@ -45,7 +45,7 @@ class BoardDetail extends Component {
       _id: this.props.location.query._id
     };
     const marginBottom = {
-      marginBottom: 5
+      margin: "5px auto", width: 200, borderRadius: 20, border: "5px solid #8EC3B0"
     };
     axios
       .post("http://localhost:8080/board/detail", send_param)
@@ -86,7 +86,7 @@ class BoardDetail extends Component {
                   </Button>
                 </NavLink>
                 <Button
-                  block
+                  block style={marginBottom}
                   onClick={this.deleteBoard.bind(
                     null,
                     this.props.location.query._id
@@ -113,7 +113,7 @@ class BoardDetail extends Component {
   //onClick={this.getBoard.bind(null,this.props._id)}
   render() {
     const divStyle = {
-      margin: 150,
+      margin: "60px 300px"
     };
     return <div style={divStyle}>{this.state.board}</div>;
   }

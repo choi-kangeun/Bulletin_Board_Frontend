@@ -126,7 +126,7 @@ class LoginForm extends Component {
       margin: 300, marginTop: 60
     };
     const buttonStyle = {
-      marginTop: 10, width: 200, borderRadius: 20, border: "5px solid #8EC3B0"
+      margin: "10px auto", width: 200, borderRadius: 20, border: "5px solid #8EC3B0"
     };
 
     return (
