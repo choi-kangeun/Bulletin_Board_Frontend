@@ -42,7 +42,8 @@ class Header extends Component {
   render() {
     const buttonStyle = {
       margin: "0px 5px 0px 10px",
-      display: this.state.buttonDisplay
+      display: this.state.buttonDisplay,
+      borderRadius: 20
     };
 
     return (
