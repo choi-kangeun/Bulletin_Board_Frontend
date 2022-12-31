@@ -4,6 +4,8 @@ import { NavLink } from "react-router-dom";
 import axios from "axios";
 import $ from "jquery";
 import {} from "jquery.cookie";
+import logo from './image/logo.png';
+
 axios.defaults.withCredentials = true;
 const headers = { withCredentials: true };
 
@@ -46,7 +48,8 @@ class Header extends Component {
     return (
       <div>
         <Navbar>
-          <Navbar.Brand href="/">Namu Intelligenc</Navbar.Brand>
+        <img width="150" height="70" src={logo} alt="logo" />
+          {/*<Navbar.Brand href="/" >Namu Intelligence</Navbar.Brand>*/}
           <Navbar.Toggle />
           <Navbar.Collapse className="justify-content-end">
             {/* <NavLink to="/mypage">
