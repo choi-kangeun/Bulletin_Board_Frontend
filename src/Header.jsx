@@ -46,7 +46,7 @@ class Header extends Component {
     return (
       <div>
         <Navbar>
-          <Navbar.Brand href="/">Namu Intelligence</Navbar.Brand>
+          <Navbar.Brand href="/">Namu Intelligenc</Navbar.Brand>
           <Navbar.Toggle />
           <Navbar.Collapse className="justify-content-end">
             {/* <NavLink to="/mypage">
