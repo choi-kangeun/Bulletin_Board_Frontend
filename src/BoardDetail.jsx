@@ -70,7 +70,7 @@ class BoardDetail extends Component {
                   </tr>
                 </tbody>
               </Table>
-              <div>
+              <div align="center">
                 <NavLink
                   to={{
                     pathname: "/boardWrite",
@@ -81,10 +81,10 @@ class BoardDetail extends Component {
                     }
                   }}
                 >
-                  <Button block style={marginBottom}>
+                  <Button style={marginBottom}>
                     글 수정
                   </Button>
-                  <Button block style={marginBottom}
+                  <Button style={marginBottom}
                   onClick={this.deleteBoard.bind(
                     null,
                     this.props.location.query._id

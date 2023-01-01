@@ -86,19 +86,17 @@ class BoardForm extends Component {
     };
 
     const thStyle ={
-      padding: "auto", width: 110, text:"center"
+      width: 110
     }
-
-  
 
     return (
       <div>
         <div style={divStyle}>
           <Table striped bordered hover>
             <thead>
-              <tr>
+              <tr align="center">
                 <th style={thStyle}>날짜</th>
-                <th>글 제목</th>
+                <th >글 제목</th>
               </tr>
             </thead>
             <tbody>{this.state.boardList}</tbody>
