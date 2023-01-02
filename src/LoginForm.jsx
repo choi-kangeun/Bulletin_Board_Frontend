@@ -8,14 +8,14 @@ axios.defaults.withCredentials = true;
 const headers = { withCredentials: true };
 
 class LoginForm extends Component {
-  componentDidMount() {
+  /*componentDidMount() {
     loadReCaptcha("6LfGieAUAAAAAJSOoqXS5VQdT_e5AH8u0n2e1PDb");
   }
 
   verifyCallback = recaptchaToken => {
     // Here you will get the final recaptchaToken!!!
     console.log(recaptchaToken, "<= your recaptcha token");
-  };
+  };*/
 
   join = () => {
     const joinEmail = this.joinEmail.value;
